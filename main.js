@@ -50,9 +50,12 @@ function transform(x) {
 };
 
 function click_trig() {
+    var audio = new Audio('assets/effect.mp3'); 
+    audio.play();
     var texta = transform(document.getElementById("typingArea").value);
-    localStorage.setItem('texta', texta);
-    window.location.href = 'translation.html';
+    var html = document.createElement('html');
+    html.innerHTML = `<html><head> <link rel="stylesheet" href="styles.css"></head><body style='background-image: url("assets/stone_texture.jpg");background-repeat: repeat;background-size: auto;'> <!-- /* ------------------------- fog -------------------------- */ --> <div id="foglayer_01" class="fog"> <div class="image01"></div> <div class="image02"></div> </div> <div id="foglayer_02" class="fog"> <div class="image01"></div> <div class="image02"></div> </div> <div id="foglayer_03" class="fog"> <div class="image01"></div> <div class="image02"></div> </div> <!-- /* ------------------------- fog -------------------------- */ --> </div> <div class="the_centerer"> <div class="letter_container" id="fill_here"> ` + texta + `</div> </div></body></html>`;
 
+    document.replaceChild(html, document.documentElement);
 
 }

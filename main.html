@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <script type="text/javascript" src="main.js"></script>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Translator</title>
+</head>
+
+<body onload="myFunction()">
+  <!-- /* ------------------------- fog -------------------------- */ -->
+  <div id="foglayer_01" class="fog">
+    <div class="image01"></div>
+    <div class="image02"></div>
+  </div>
+  <div id="foglayer_02" class="fog">
+    <div class="image01"></div>
+    <div class="image02"></div>
+  </div>
+  <div id="foglayer_03" class="fog">
+    <div class="image01"></div>
+    <div class="image02"></div>
+  </div>
+  <!-- /* ------------------------- fog -------------------------- */ -->
+  <div class="back"></div>
+  <div class="main-center">
+
+    
+    <img src="assets/logo.png" class="logo" alt="">
+    <textarea class="tarea" id="typingArea" cols="30" rows="10" spellcheck="false"></textarea>
+    <button class="button" onclick="click_trig()">Translate to Dovahzul</button>
+    
+  </div>
+
+
+
+  <!-- /* ------------------------- audio -------------------------- */ -->
+
+  <audio id="typingSound">
+    <source src="assets/mixkit-single-key-type-2533.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+
+</html>
