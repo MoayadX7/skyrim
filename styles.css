@@ -1,0 +1,169 @@
+.back {
+    background-image: url("assets/wp2225973.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,
+html {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logo {
+pointer-events: none;
+    position: relative;
+    width: 500px;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.65));
+    margin-bottom: 20px;
+
+}
+
+.button {
+    cursor: pointer;
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+    position: relative;
+    width: 450px;
+    height: 90px;
+    border-radius: 75.781px;
+    border: 2.05px solid #FFF;
+    background: #000;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    width: 490px;
+    background: #FFF;
+    color: #000;
+    border: 2.05px solid #000;
+    transition: 0.4s;
+
+}
+
+input:invalid,
+textarea:invalid {
+    outline: none;
+    /* Remove the default outline */
+}
+
+.tarea {
+
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    padding-left: 5.03vw;
+    padding-right: 5.03vw;
+    padding-top: 10.03vh;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow: -moz-scrollbars-none;
+    /* Firefox */
+    box-sizing: border-box;
+    position: relative;
+
+    color: white;
+    width: 69.38vw;
+    height: 36.20vh;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #141414;
+    box-shadow: 0px 0px 54px 0px rgba(255, 255, 255, 0.45);
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.tarea::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.main-center {
+    padding-top: 70px;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+.stone_back {
+    background-image: url("assets/stone_texture.jpg");
+
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.the_centerer {
+    
+    z-index: 1000;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.letter_container {
+    pointer-events: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+    
+    width: 70vw;
+    /* height: 50vh; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #000;
+    
+    background: #000;
+    box-shadow: 0px 4px 74px 90px rgba(0, 0, 0, 0.95);
+    gap: 5px 0px;
+}
+
+.sq_image{
+    pointer-events: none;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
