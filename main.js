@@ -42,7 +42,7 @@ function click_trig() {
     audio.play();
     var texta = transform(document.getElementById("typingArea").value);
     var html = document.createElement('html');
-    html.innerHTML = `<html><head> <link rel="stylesheet" href="styles.css"></head><body style='background-image: url("assets/abc.jpg");background-repeat: repeat;background-size: auto;'> </div> <div class="the_centerer"> <button class="button" onclick="click_trig2()">Go back</button><div class="letter_container" id="fill_here"> ` + texta + `</div> </div></body></html>`;
+  html.innerHTML = `<html><head> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body style='background-image: url("assets/abc.jpg");background-repeat: repeat;background-size: auto;'> </div> <div class="the_centerer"> <button class="button" onclick="click_trig2()">Go back</button><div class="letter_container" id="fill_here"> ` + texta + `</div> </div></body></html>`;
 
     document.replaceChild(html, document.documentElement);
 
